@@ -39,7 +39,7 @@
                         break;
                     default:
                         System.out.println("输入错误");
-                        System.exit(1);
+                        System.exit(1);//非正常退出，返回到最上层
                 }
                  System.out.println("退课请输入1,其余输入0");
         Scanner l = new Scanner(System.in);
